@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+.body {
+    width: 100%;
+}
+.container {
+    margin: 0 36px;
+    max-width: 100%;
+    text-align: center;
+    background-color: #fff;
+}
+h2 {
+    font-size: 30px;
+    color: #777;
+}
+#time {
+    font-size: 70px;
+    color: #777;
+    margin-bottom: 15px;
+}
+div {
+    display: block;
+}
+input {
+    text-align: center;
+    border-radius: 15px;
+    background-color: #894;
+    font-size: 30px;
+    padding: 15px;
+    color: #fff;
+}
+input:hover {
+    cursor: pointer;
+    opacity: 0.75;
+}
+input:disabled {
+    background-color: #f0f0f0;
+    color: #999;
+}
+

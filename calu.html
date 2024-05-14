@@ -12,37 +12,37 @@
             <table>
                 <tr>
                     <td colspan="4">
-                        <input type="text" class="display" name="display" value="" disabled>
+                        <input type="text" class="display" name="result" value="" disabled>
                     </td>
                 </tr>
                 <tr>
-                    <td><input type="button" value="AC" class="other" name="clear_btn" onclick="calc_number(this)"></td>
-                    <td><input type="button" value="%" class="other" name="percent_btn" onclick="calc_number(this)"></td>
-                    <td><input type="button" value="." class="other" name="dot_btn" onclick="calc_number(this)"></td>
-                    <td><input type="button" value="÷" class="operetor" name="div_btn" onclick="calc_number(this)"></td>
+                    <td><input type="button" value="AC" class="other" name="clear_btn" onButtonClick="calc_oprt(this)"></td>
+                    <td><input type="button" value="%" class="other" name="percent_btn" onButtonClick="calc_number(this)"></td>
+                    <td><input type="button" value="." class="other" name="dot_btn" onButtonClick="calc_oprt(this)"></td>
+                    <td><input type="button" value="÷" class="operetor" name="div_btn" onButtonClick="calc_oprt(this)"></td>
                 </tr>
                 <tr>
-                    <td><input type="button" value="7" onclick="calc_number(this)"></td>
-                    <td><input type="button" value="8" onclick="calc_number(this)"></td>
-                    <td><input type="button" value="9" onclick="calc_number(this)"></td>
-                    <td><input type="button" value="×" class="operetor" name="multi_btn" onclick="calc_number(this)"></td>
+                    <td><input type="button" value="7" onButtonClick="calc_number(this)"></td>
+                    <td><input type="button" value="8" onButtonClick="calc_number(this)"></td>
+                    <td><input type="button" value="9" onButtonClick="calc_number(this)"></td>
+                    <td><input type="button" value="×" class="operetor" name="multi_btn" onButtonClick="calc_oprt(this)"></td>
                 </tr>
                 <tr>
-                    <td><input type="button" value="4" onclick="calc_number(this)"></td>
-                    <td><input type="button" value="5" onclick="calc_number(this)"></td>
-                    <td><input type="button" value="6" onclick="calc_number(this)"></td>
-                    <td><input type="button" value="-" class="operetor" name="minus_btn" onclick="calc_number(this)"></td>
+                    <td><input type="button" value="4" onButtonClick="calc_number(this)"></td>
+                    <td><input type="button" value="5" onButtonClick="calc_number(this)"></td>
+                    <td><input type="button" value="6" onButtonClick="calc_number(this)"></td>
+                    <td><input type="button" value="-" class="operetor" name="minus_btn" onButtonClick="calc_oprt(this)"></td>
                 </tr>
                 <tr>
-                    <td><input type="button" value="1" onclick="calc_number(this)"></td>
-                    <td><input type="button" value="2" onclick="calc_number(this)"></td>
-                    <td><input type="button" value="3" onclick="calc_number(this)"></td>
-                    <td><input type="button" value="+" class="operetor" name="plus_btn" onclick="calc_number(this)"></td>
+                    <td><input type="button" value="1" onButtonClick="calc_number(this)"></td>
+                    <td><input type="button" value="2" onButtonClick="calc_number(this)"></td>
+                    <td><input type="button" value="3" onButtonClick="calc_number(this)"></td>
+                    <td><input type="button" value="+" class="operetor" name="plus_btn" onButtonClick="calc_oprt(this)"></td>
                 </tr>
                 <tr>
-                    <td><input type="button" value="0" onclick="calc_number(this)"></td>
-                    <td colspan="2"><input type="button" class="double" value="00" onclick="calc_number(this)"></td>
-                    <td><input type="button" value="=" class="operetor" onclick="calc_number(this)"></td>
+                    <td><input type="button" value="0" onButtonClick="calc_number(this)"></td>
+                    <td colspan="2"><input type="button" class="double" value="00" onButtonClick="calc_number(this)"></td>
+                    <td><input type="button" value="=" class="operetor" onButtonClick="calc_oprt(this)"></td>
                 </tr>
             </table>
         </form>

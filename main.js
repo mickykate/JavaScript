@@ -20,8 +20,25 @@ function calc_number(btn) {
   }
 
 //四則演算の連続入力制御・→ 修正中
-
+function calc_oprt(btn) {
+  if (result.value.slice(-1) === '+') {
+    return;
+  } else if (result.value.slice(-1) === '-') {
+    return;
+  } else if (result.value.slice(-1) === '×') {
+    return;
+  } else if (result.value.slice(-1) === '÷') {
+    return;
+  } else if (result.value.slice(-1) === '.') {
+    return;
+  } else {
+    result.value = result.value + btn.value;
+  }
+}
 //ゼロの連続入力阻止。→ 後ほど修正
+if (value == "0" || value == "00") {
+  return;
+}
 
 
 
